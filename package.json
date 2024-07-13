@@ -4,8 +4,8 @@
   "description": "Basic template for a new Foundation for Sites project.",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp",
-    "build": "gulp sass"
+    "start": "gulp serve",
+    "build": "gulp build"
   },
   "author": "Foundation Yetinauts <contact@get.foundation> (https://get.foundation)",
   "license": "MIT",

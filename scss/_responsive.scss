@@ -99,7 +99,7 @@
             height: 100%;
             width: 100%;
             background: rgba(0, 0, 0, 0.7);
-            left: 270px;
+            left: -100%;
             top: 0;
             opacity: 0;
             -webkit-transition: opacity 0.3s ease;
@@ -112,6 +112,7 @@
           &.show-mobile-menu {
             &::before {
               opacity: 1;
+              left: 270px;
             }
           }
 
